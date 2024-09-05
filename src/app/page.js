@@ -1,10 +1,9 @@
 import Navbar from '../app/component/navbar';
-import Footer from '/app/component/footer';
+import Footer from '../app/component/footer';
 
 const Home = () => {
     return (
         <>
-            <Navbar />
             
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
@@ -64,7 +63,6 @@ const Home = () => {
                 </div>
             </div>
 
-            <Footer />
         </>
     );
 }
