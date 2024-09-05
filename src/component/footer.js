@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-export default function Fot() {
+const Footer = () =>  {
   return (
     <footer className="py-5">
         <div className="row">
@@ -55,3 +55,5 @@ export default function Fot() {
       </footer>
   );
 }
+
+export default Footer;
