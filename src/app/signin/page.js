@@ -17,7 +17,7 @@ export default function LoginPage() {
     setError('');
 
     try {
-      const res = await fetch('http://localhost:3000/api/login', {
+      const res = await fetch('https://backend-aem650s-projects.vercel.app/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

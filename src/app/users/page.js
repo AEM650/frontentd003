@@ -9,7 +9,7 @@ export default function Page() {
   useEffect(() => {
     async function getUsers() {
       try {
-        const res = await fetch('http://localhost:3000/api/users');
+        const res = await fetch('https://backend-aem650s-projects.vercel.app/api/users');
         if (!res.ok) {
           console.error('Failed to fetch data');
           return;
@@ -28,7 +28,7 @@ export default function Page() {
 
 const handleDelete = async (id) => {
   try {
-    const res = await fetch(`http://localhost:3000/api/users/${id}`, {
+    const res = await fetch(`https://backend-aem650s-projects.vercel.app/api/users/${id}`, {
       method: 'DELETE',
       headers: {
         'Accept': 'application/json',
