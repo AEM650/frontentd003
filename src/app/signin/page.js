@@ -17,7 +17,7 @@ export default function LoginPage() {
     setError('');
 
     try {
-      const res = await fetch('https://backend-aem650s-projects.vercel.app/api/login', {
+      const res = await fetch('https://backend-murex-three.vercel.app/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -11,7 +11,7 @@ export default function Page() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('https://backend-aem650s-projects.vercel.app//api/users', {
+    const res = await fetch('https://backend-murex-three.vercel.app/api/users', {
       method: 'POST',
       headers: {
         Accept : 'application/json',

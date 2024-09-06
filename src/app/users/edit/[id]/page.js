@@ -12,7 +12,7 @@ export default function Page({ params }) {
   useEffect(() => {
     async function getUsers() {
       try {
-        const res = await fetch(`https://backend-aem650s-projects.vercel.app/api/users/${id}`);
+        const res = await fetch(`https://backend-murex-three.vercel.app/api/users/${id}`);
         if (!res.ok) {
           console.error('Failed to fetch data');
           return;
